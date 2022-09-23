@@ -41,7 +41,7 @@ class _LoginPageState extends State<LoginPage> {
                       obscureText: true,
                       cursorColor: Colors.black,
                       decoration: InputDecoration(
-                        hintText: 'Masukkan Pin',
+                        hintText: 'Masukkan pin',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(17),
                         ),
