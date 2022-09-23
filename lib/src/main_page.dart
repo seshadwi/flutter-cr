@@ -25,7 +25,7 @@ class MainPage extends StatelessWidget {
             ),
             SizedBox(height: 20),
             TextFormField(
-              minLines: 2,
+              minLines: 20,
               maxLines: 20,
               cursorColor: Colors.black,
               decoration: InputDecoration(
