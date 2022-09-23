@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                         if (value == null || value.isEmpty) {
                           return 'Please enter some text';
                         } else if (value != "1234") {
-                          return 'Password salah';
+                          return 'Wrong password';
                         }
                         return null;
                       },
